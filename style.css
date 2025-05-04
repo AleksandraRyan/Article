@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  /* border: 2px solid red; */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro h1 {
+  margin-bottom: 15px;
+  font-family: 'Newsreader', serif;
+  font-weight: 500;
+}
+
+.intro p {
+  font-family: 'Newsreader', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.1em;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.intro img {
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+hr {
+  border-color: teal;
+  border-width: 1.5px;
+  margin: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.container p {
+  /* border: green 2px solid; */
+  padding: 20px;
+  font-family: 'Newspaper', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  font-size: 1.1em;
+  /* margin-bottom: 15px; */
+}
+
+.container p img {
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+cite {
+  display: block;
+  margin-top: 5px;
+  background-color: yellow;
+  width: 35%;
+  text-align: center;
+}
+
+/* Footer */
+footer p {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  background-color: yellow;
+  padding: 5px;
+}
